@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Financeiro</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons (Bootstrap Icons) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-2 sidebar">
+            <div class="sidebar-content">
+                <div class="avatar text-center mb-4">
+                    <img src="https://via.placeholder.com/80" alt="Avatar">
+                    <p class="mt-2">usuario</p>
+                    <p class="text-light">emailexemplo@gmail.com</p>
+                </div>
+                <!--<input class="form-control mb-3" type="search" placeholder="Pesquisar" aria-label="Pesquisar">-->
+                <a href="teste.html"><i class="bi bi-house"></i>Página Inicial</a>
+                <a href="transacoes.html"><i class="bi bi-cash-stack"></i>Transações</a>
+                <a href="contatos.html"><i class="bi bi-person"></i>Contatos</a>
+                <a href="categorias.html" class="active"><i class="bi bi-tags"></i>Categorias</a>
+                <a href="conta-bancaria.html"><i class="bi bi-bank"></i>Conta Bancária</a>
+            </div>
+            <a href="/tela-login/index.html" class="text-light mt-5"><i class="bi bi-box-arrow-right"></i>Sair da Conta</a>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-10 p-4">
+            <div class="header fw-semibold">Categorias</div>
+
+        <!--Botoes-->
+        <div class="btn-group" role="group" aria-label="Grupo de Botões">
+            <button type="button" class="btn btn-custom active">Todos</button>
+            <button type="button" class="btn btn-custom">Fixas</button>
+            <button type="button" class="btn btn-custom">Variaveis</button>
+            <button type="button" class="btn btn-custom">Impostos</button>
+            <button type="button" class="btn btn-custom">Rendimentos</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
